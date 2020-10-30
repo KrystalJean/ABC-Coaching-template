@@ -2,100 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - ABC Coaching product landing page</title>
-  <link rel="stylesheet" href="resources/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>CodePen - ABC Coaching product landing page</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <style>
-    p {
-      font-size: 40px;
-    }
-
-    @media (max-height: 800px) {
-      p {
-        font-size: 26px;
-      }
-    }
-  </style>
+    <style>
+        p {
+            font-size: 40px;
+        }
+        
+        @media (max-height: 800px) {
+            p {
+                font-size: 26px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
-  <div id="page-wrapper">
-    <header id="header">
-      <nav id="nav-bar">
+    <!-- partial:index.partial.html -->
+    <div id="page-wrapper">
+        <div id="header">
+            <nav id="nav-bar">
 
-        <!--Logo img goes here-->
-        <img id="header-img" src="resources/gym.png" alt="CompanyLogo">
-        <h4>by Krystal Jean</h4>
-        <section id="hero">
-          <h2>ABC Coaching</h2> <br>
-          <ul>
-            <li><a class="nav-link" href="#About-ABC">About ABC</a></li>
-            <li><a class="nav-link" href="#Apparel">Apparel</a></li>
-            <li><a class="nav-link" href="#Online-Coaching">Online Coaching</a></li>
-          </ul>
+                <!--Logo img goes here-->
+                <img id="header-img" src="gym.png" alt="CompanyLogo">
+                <h4>by Krystal Jean</h4>
+                <section id="hero">
+                    <h2>ABC Coaching</h2><br>
+                    <ul>
+                        <li><a class="nav-link" href="#About-ABC">About ABC</a></li>
+                        <li><a class="nav-link" href="#Apparel">Apparel</a></li>
+                        <li><a class="nav-link" href="#Online-Coaching">Online Coaching</a></li>
+                        <li> <button id="submit">Sign Up</button></li>
+                    </ul>
+                </section>
+
+
+            </nav>
+
+            <div id="show" class="notification ">
+                <h2 id="signup">Sign Up</h2>
+                <form id="form" action="/action_page.php">
+                    <input id="email" type="email" placeholder="Enter Email Address..." name="search">
+                    <button id="send" type="sumit">Submit</button>
+                </form>
+                <button onclick="no()" id="cancel">Cancel</button>
+            </div>
+
+
+        </div>
+    </div>
+    <!--Above this line pertains to the fixed Nav Bar at top of page-->
+
+    <div class="container">
+        <section id="About-ABC" class="section">
+            <h3>About ABC</h3>
+            <img id="aboutPic" src="https://cdn.shopify.com/s/files/1/2458/0813/files/859A359E-5F95-496E-8332-6447DE2B6A51_200x200.jpeg?v=1532731936">
+            <p> I started ABC Coaching to follow my passion in .......Lorem epsom Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
+                Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This will be photos of merchandise.
+
+            </p>
         </section>
-      </nav>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">Sign up for my monthly fitness guide...<br>
-        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
-        <input id="submit" type="submit" value="Sign Up" class="btn" />
-      </form>
-    </header>
-  </div>
-  <!--Above this line pertains to the fixed Nav Bar at top of page-->
 
-  <div class="container">
-    <section id="About-ABC" class="section">
-      <h3>About ABC</h3>
-      <img id="aboutPic"
-        src="resources/workout.jpeg">
-      <p> I started ABC Coaching to follow my passion in .......Lorem epsom Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom
-        text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This will be
-        photos of merchandise.
+        <section id="Apparel" class="section">
+            <h3>Apparel</h3>
+            <p> This will be photos of merchandise. This will be photos of merchandise. Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
+                Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This will be photos of apparel</p>
 
-      </p>
-    </section>
+            <p> Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
+                Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This will be photos of apparel</p>
+            <p> Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
+                Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This will be photos of apparel</p>
 
-    <section id="Apparel" class="section">
-      <h3>Apparel</h3>
-      <p> This will be photos of merchandise. This will be photos of merchandise. Lorem Epsom text,Lorem Epsom
-        text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom
-        text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text, This
-        will be photos of apparel</p>
+        </section>
 
-      <p> Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom
-        text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text, This will be photos of apparel</p>
-      <p> Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom
-        text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem Epsom text,Lorem
-        Epsom text,Lorem Epsom text, This will be photos of apparel</p>
+        <section id="Online-Coaching" class="section">
+            <h3>Online Coaching</h3>
+            <input id="Add-to-Cart" type="submit" value="Add to Cart" class="btn" />
+            <p>$30.00 x 4 weeks of online coaching.</p>
+            <p>Personalized training and nutrition programs. Programs fit your specific goals and experience level and will be communicated via text message and/or email.</p>
+            <p>Check out my<a id="nav-link" href="https://www.instagram.com/"><u>instagram page</u></a> for examples of workouts and the correct form to use.</p>
 
-    </section>
 
-    <section id="Online-Coaching" class="section">
-      <h3>Online Coaching</h3>
-      <input id="Add-to-Cart" type="submit" value="Add to Cart" class="btn" />
-      <p>$30.00 x 4 weeks of online coaching.</p>
-      <p>Personalized training and nutrition programs. Programs fit your specific goals and experience level and will be
-        communicated via text message and/or email.</p>
-      <p>Check out my<a id="nav-link" href="https://www.instagram.com/"><u>instagram page</u></a> for examples of
-        workouts and the correct form to use.</p>
+        </section>
 
-    </section>
-    
-  </div>
-  <!-- partial -->
-  <div id="footer">
-    <div id="footer-content-left">
-      ABC Coaching • 
-      <span id="address">1234 Main St. New York City, New York 12345 </span>
     </div>
     <!-- partial -->
     <div id="footer">
