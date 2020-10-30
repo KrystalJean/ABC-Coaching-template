@@ -38,7 +38,7 @@ body {
     text-align: left;
     top: 0px;
 }
-<<<<<<< HEAD:resources/style.css
+
 #footer {  
   position: fixed;
   left: 0;
@@ -51,20 +51,6 @@ body {
   opacity: 80%;
   border-top: #000 solid 1px;
   font-size: 30px;
- 
-=======
-
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 0;
-    height: 60px;
-    background-color: #ffb347;
-    color: black;
-    font-size: 30px;
->>>>>>> f317bb80b8f53230e970881e5fea9bde88fd28cc:style.css
 }
 
 #footer-content-left {
